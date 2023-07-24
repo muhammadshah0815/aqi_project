@@ -32,6 +32,7 @@ def retrieve_aqi_data():
     return data
 
 def get_air_quality_data(city):
+    # ERROR: State is set to Punjab, so only that one state included
     url = f"https://api.airvisual.com/v2/city?city={city}&state=Punjab&country=Pakistan&key={API_KEY}"
     response = requests.get(url)
     data = json.loads(response.text)
