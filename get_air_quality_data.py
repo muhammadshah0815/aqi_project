@@ -54,7 +54,7 @@ def plot_aqi_chart(city, data):
     plt.xlabel("Time")
     plt.ylabel("AQI")
     plt.plot(timestamps, aqi_values)  # Plot the AQI values over time
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=45) # stil giving errors
     plt.show()
 
 def main():
