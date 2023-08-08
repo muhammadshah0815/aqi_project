@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import sqlite3
 from datetime import datetime
 
+#TODO: fix graphs
+
 API_KEY = "aae333df-e2c1-4629-812b-bc2749923aa4"
 DATABASE_NAME = "aqi_data.db"
 TABLE_NAME = "aqi_records"
